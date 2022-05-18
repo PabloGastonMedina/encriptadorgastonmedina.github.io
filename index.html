@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+        <img src="Logo.png" alt="logo">
+
+        <div class="caja-texto">
+            <textarea class="mensaje" name="mensjae" id="mensaje-texto" placeholder="Escribe el texto aqui" cols="22"></textarea>
+
+            <p class="aviso"><span class="mano">&#9758;</span> Solo letras mayusculas y minusculas sin acentos</p>
+
+
+            <input class="btn-encriptar" type="button" name="encriptar" id="encriptar" value="Encriptar" onclick="encriptar()">
+            <input class="btn-desencrpitar" type="button" name="desencriptar" id="desencriptar" value="Desencriptar" onclick="desencriptar()">
+
+            <p class="nombre">&#169; Pagina creada por Pablo Gaston Medina
+                <a href="https://github.com/PabloGastonMedina"> <img src="GIT.png" alt="git" width="15px"></a>
+                <a href="https://www.linkedin.com/in/pablo-gast%C3%B3n-medina-877173211/"> <img src="Linkedin.png" alt="linkedin" width="15px"></a>
+            </p>
+        </div>
+
+        <div class="rectangulo">
+
+            <div class="oculto">
+                <textarea class="texto-oculto" name="texto-oculto" id="texto-oculto"></textarea> 
+                <input class="btn-copiar" type="submit" name="boton" id="btn-copiar" value="Copiar" onclick="copiar()">
+            </div>
+ 
+            <div class="mostrado">
+             <img src="Muñeco.png" alt="persona-buscando" class="munieco">
+             <h3>Ningun mensaje fue encontrado</h3>
+             <p>Ingrese el texto que desea encriptar o desencriptar</p>
+            </div>
+        </div>
+
+       
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

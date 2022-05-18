@@ -1,0 +1,151 @@
+.container{
+    height: 786px;
+    width: 1024px;
+    border-radius: 10px;
+    background: #ffb47b;
+}
+
+.logo{
+    position: absolute;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+
+}
+
+.caja-texto{
+    width: 400px;
+    height: 600px;
+    margin-left: 125px;
+    margin-top: 80px;
+}
+
+.mensaje{
+    background-color: #f4bb9a;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    border:none;
+    
+    color: #331b4d;
+}
+
+.caja-texto .aviso{
+    color:#331b4d;
+    text-align: left;
+    margin-top: 300px;
+    font-size: 15px;
+}
+
+.caja-texto .aviso .mano{
+    background-color: #745285;
+}
+.caja-texto .btn-encriptar{
+    margin-top: 20px;
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #745285;
+    color:#f4bb9a;
+    font-weight: bold;
+    box-shadow: 8px 10px 5px #331b4d;
+    cursor: pointer;
+    border:black;
+}
+
+.btn-encriptar:hover{
+    background-color: #331b4d;
+    box-shadow: 5px 5px 5px #745285;
+}
+
+.caja-texto .btn-desencrpitar{
+    margin-top: 20px;
+    width: 150px;
+    height: 70px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color:#745285;
+    color: #f4bb9a;
+    font-weight: bold;
+    box-shadow: 8px 10px 5px #331b4d;
+    cursor: pointer;
+    border:black;
+}
+
+.btn-desencrpitar:hover{
+    background-color: #331b4d;
+    box-shadow: 5px 5px 5px #745285;
+}
+
+
+.nombre{
+    margin-top: 70px;
+    margin-left: 5px;
+    font-size: 15px;
+    font-style: italic;
+}
+.rectangulo{
+    position: absolute;
+    text-align: center;
+    width: 350px;
+    height: 645px;
+    left: 600px;
+    top: 75px;
+    border-radius: 15px;
+    background-color: #331b4d;  
+    border: 3px solid #745285;
+    box-shadow: 8px 10px 5px #331b4d;
+}
+
+.rectangulo h3{
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f4bb9a;
+}
+
+.rectangulo p{
+    margin-top: 20px;
+    color: #f4bb9a;
+}
+
+.rectangulo .oculto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    color: #ffb47b;
+    font-size: 20px;
+}
+
+.texto-oculto{
+    margin-left: 35px;
+    align-self: center;
+    display:block;
+    width: 80%;
+    height: 500px;
+    background-color: #745285;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffff
+}
+
+.btn-copiar{
+    align-self: center;
+    background-color:#f4bb9a;
+    width: 150px;
+    height: 50px;
+}
+
+.btn-copiar:hover{
+    background-color:#f4bb9a;
+    box-shadow: 5px 5px 5px #ffb47b;
+}
